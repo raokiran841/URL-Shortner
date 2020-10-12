@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>URL Shortner</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<h2>Welcome ${message}</h2>
+<form action="/url_reduce" method="post">
+	<label for="url">Enter long url here</label>
+	<input type="text" name="url"><br><br>
+	<button type="submit">Submit</button><br><br>
+</form>
+<hr><br>
+<input type="text" id="shorturl" name="shorturl" value="{{message}}"/>
+</body>
+
+</html>
